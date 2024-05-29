@@ -1,0 +1,20 @@
+batch_size: 9
+data_parallel: false
+dataset_name: SP-DocVQA
+device: cuda
+eval_start: true
+images_dir: /data2/users/jsamper/Data/SinglePageDataNoans/Images
+imdb_dir: /data2/users/jsamper/Data/SinglePageDataNoans/imdb
+lr: 2e-4
+max_source_length: 512
+model_name: VT5
+model_weights: t5-base
+page_retrieval: none
+save_dir: save/
+seed: 42
+train_epochs: 10
+visual_module:
+  finetune: false
+  model: dit
+  model_weights: microsoft/dit-base-finetuned-rvlcdip
+warmup_iterations: 1000

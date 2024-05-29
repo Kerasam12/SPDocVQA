@@ -1,0 +1,4 @@
+dataset_name: MP-DocVQA
+imdb_dir: /data2/users/jsamper/Data/imdb  # /imdb/collection/imdb_train.npy
+images_dir: /data2/users/jsamper/Data/Images
+page_retrieval: Oracle  # Oracle / Concat / Logits / Custom (for Hierarchical methods (Hi-LayoutLMv3, Hi-LT5, Hi-VT5)

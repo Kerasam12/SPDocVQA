@@ -1,0 +1,3 @@
+dataset_name: SP-DocVQA
+imdb_dir: /data2/users/jsamper/Data/SinglePageDataNoans/imdb  # /imdb/collection/imdb_train.npy
+images_dir: /data2/users/jsamper/Data/SinglePageDataNoans/Images
